@@ -13,8 +13,13 @@ export default function Index() {
         <Typography variant="h4" component="h1" gutterBottom>
           Next.js example
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
+        <div>
+        <Link href="/login" color="secondary">
+          Go to the login page
+        </Link>
+        </div>
+        <Link href="/profile" color="secondary">
+          Go to the profile page
         </Link>
         <ProTip />
         <Copyright />
