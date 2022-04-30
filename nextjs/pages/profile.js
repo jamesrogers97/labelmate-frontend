@@ -11,7 +11,6 @@ export default function Profile() {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
     </>
   );
